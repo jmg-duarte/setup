@@ -3,6 +3,7 @@
 if [ -z "$1" ]
   then
     echo "usage: ./git_ssh.sh <email>"
+    exit 1
 fi
 
 EMAIL=$1
