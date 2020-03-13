@@ -1,5 +1,10 @@
 #!/bin/sh
 
+if [ -z "$1" ]
+  then
+    echo "usage: ./git_ssh.sh <email>"
+fi
+
 EMAIL=$1
 KEY_PATH="$HOME/.ssh/id_rsa"
 
