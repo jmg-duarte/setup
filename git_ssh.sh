@@ -23,3 +23,5 @@ eval "$(ssh-agent -s)"
 ssh-add "$KEY_PATH"
 
 xclip -sel clip < "$KEY_PATH.pub"
+
+cat "$KEY_PATH.pub"
