@@ -12,6 +12,10 @@ KEY_PATH="$HOME/.ssh/id_rsa"
 sudo apt update
 sudo apt install xclip -y
 
+git config --global user.email "$EMAIL"
+git config --global user.name "José Duarte"
+git config --global core.editor "nano"
+
 ssh-keygen \
     -t rsa \
     -b 4096 \
