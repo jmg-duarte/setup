@@ -28,4 +28,5 @@ ssh-add "$KEY_PATH"
 
 xclip -sel clip < "$KEY_PATH.pub"
 
-cat "$KEY_PATH.pub"
+firefox https://github.com/settings/keys &
+# cat "$KEY_PATH.pub"
