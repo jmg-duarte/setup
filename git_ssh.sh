@@ -15,6 +15,7 @@ sudo apt install xclip -y
 git config --global user.email "$EMAIL"
 git config --global user.name "José Duarte"
 git config --global core.editor "nano"
+git config --global init.defaultBranch "main"
 
 ssh-keygen \
     -t rsa \
